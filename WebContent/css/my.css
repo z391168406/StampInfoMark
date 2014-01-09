@@ -1,0 +1,87 @@
+*{
+                margin:0;
+                padding:0;
+                font-family:verdana; 
+            }
+            body{
+                background-color:RGB(232,231,226);
+            }
+            
+            .all{
+                margin-left:200px;
+                width:1000px;
+            }
+            .number{
+                float:left;
+                width:225px;
+            
+                
+            }
+            
+            .row{
+               float:left;
+               width:20px;
+               height:220px;
+               margin-top:110px;
+               vertical-align:center;
+               color:red;
+               font-size:20px;
+            
+            }
+            .content
+            {
+                width:200px;
+                height:220px;
+                margin:20px 20px 20px 40px;
+                background-color:white;
+                text-align:center;
+                vertical-align:center;
+                
+                
+            }
+            
+            .content1
+            {
+                width:30px;
+                height:220px;
+                margin:20px;
+                
+                text-align:center;
+                vertical-align:center;
+                
+                
+            }
+            img{
+                vertical-align: middle;
+                
+            }
+            
+            #toTop
+            {
+                position:fixed; 
+                _position:fixed;
+                font-size:12px;
+                color:Blue;
+                width:15px;
+                text-align:center;
+                right:150px;
+                bottom:100px;
+                cursor:pointer;
+                background-color:RGB(243,247,251);
+                display:none;
+            }
+             .fixedHead1{
+				position:fixed;
+				top:0;
+				
+				 }
+			.fixedHead2{
+				 position:fixed;
+				 top:0;
+				 left=370px;
+				 }
+			 .fixedHead3{
+				 position:fixed;
+				 top:0;
+				 left=8px;
+				 }

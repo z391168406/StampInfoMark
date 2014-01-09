@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>StampInfoMark</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ShowGoodsClServlet</display-name>
+    <servlet-name>ShowGoodsClServlet</servlet-name>
+    <servlet-class>version1.servlet.ShowGoodsClServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowGoodsClServlet</servlet-name>
+    <url-pattern>/ShowGoodsClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SaveDataServlet</display-name>
+    <servlet-name>SaveDataServlet</servlet-name>
+    <servlet-class>version1.servlet.SaveDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveDataServlet</servlet-name>
+    <url-pattern>/SaveDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteDataServlet</display-name>
+    <servlet-name>DeleteDataServlet</servlet-name>
+    <servlet-class>version1.servlet.DeleteDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteDataServlet</servlet-name>
+    <url-pattern>/DeleteDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>loginClServlet</display-name>
+    <servlet-name>loginClServlet</servlet-name>
+    <servlet-class>version1.servlet.loginClServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginClServlet</servlet-name>
+    <url-pattern>/loginClServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

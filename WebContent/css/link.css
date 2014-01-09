@@ -1,0 +1,21 @@
+#link a:link{
+color:#FF0000;
+text-decoration:underline;
+}
+#link a:visited {
+ color:#0000FF;
+ text-decoration:none;
+}
+#link a:hover {
+ color:#000000;
+ text-decoration:none;
+}
+
+#table{
+     background-color:RGB(232,231,226);
+    }
+    
+.STYLE3 {
+	font-size: 36px;
+	color: #000000;
+}
